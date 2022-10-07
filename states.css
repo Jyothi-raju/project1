@@ -8,8 +8,6 @@ h2{
 }
 
 
-
-
 .img{
   width:150px;
 }
@@ -36,4 +34,33 @@ h2{
 .detailscolor{
   color:#74b5a6
 
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .stateimageflex{
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 45px;
+  padding: 15px 30px;
+  justify-content: center;
+   flex-direction: column-reverse;
+  }
+  h2{
+    color:white;
+    text-align:center;
+    border:1px solid white;
+    background-color:#74b5a6;
+    margin-left:0% !important;
+      width:100% !important;
+
+  }
 }
