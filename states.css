@@ -1,0 +1,39 @@
+h2{
+  color:white;
+  text-align:center;
+  border:1px solid white;
+  width:20%;
+  background-color:#74b5a6;
+  margin-left:40%;
+}
+
+
+
+
+.img{
+  width:150px;
+}
+
+
+.stateimageflex{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width:20%;
+  display:flex;flex-wrap:wrap;
+  margin-left:2%;
+  padding:1%;
+  justify-content: space-between;
+  margin-bottom:1%
+
+
+}
+
+.flex{
+  display:flex;flex-wrap:wrap;
+
+
+}
+
+.detailscolor{
+  color:#74b5a6
+
+}
